@@ -1,0 +1,20 @@
+# Ignore node_modules directory
+node_modules/
+Payroll-Service-Development/
+# Ignore environment files
+venv
+drowsy_driver/
+backend/venv/
+backend/node_modules/
+# Ignore log files
+*.log
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+backend/node_modules/
+frontend/node_modules/
+.venv/
+123456
+123456.pub

@@ -1,0 +1,15 @@
+// models/User.js
+
+// Sample model for a user
+
+const mongoose = require('mongoose');
+
+const userSchema = new mongoose.Schema({
+    name: { type: String, required: true },
+    email: { type: String, required: true, unique: true },
+    // Add more fields as needed
+});
+
+const User = mongoose.model('User', userSchema);
+
+module.exports = User;
